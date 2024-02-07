@@ -12,10 +12,19 @@
  */
 
 #include "csc232.h"
+#include "BagInterface.h"
+#include "ArrayBag.h"
 
 int main(int argc, char* argv[])
 {
     std::cout << "Hello, Main Target!" << std::endl;
+    BagInterface<int> *ptr = new ArrayBag<int>{};
+    std::cout << "size of new bag: " << ptr->getCurrentSize() << "\n";
+    std::vector<int> copy = ptr->toVector();
+    for (auto item : copy)
+    {
+        std::cout << item << "\n";
+    }
 
     return EXIT_SUCCESS;
 }
