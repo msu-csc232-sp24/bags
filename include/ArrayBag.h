@@ -11,7 +11,7 @@ private:
     ItemType items[DEFAULT_CAPACITY ];
     int itemCount;
     int maxItems;
-
+    int getIndexOf( const ItemType& target );
 public:
     ArrayBag();
     ~ArrayBag() override = default;
