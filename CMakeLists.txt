@@ -30,7 +30,7 @@ message("CMAKE_CXX_FLAGS =${CMAKE_CXX_FLAGS}")
 set(CMAKE_CXX_STANDARD 14)
 
 # Source sets for targets
-set(SRC_MAIN_FILES src/main/cpp/main.cpp)
+set(SRC_MAIN_FILES src/main/cpp/main.cpp include/ArrayBag.h)
 set(SRC_DEMO_FILES src/main/cpp/demo.cpp)
 set(SRC_TEST_FILES src/test/cpp/unit_tests.cpp)
 
