@@ -1,6 +1,6 @@
 /**
  * CSC232 - Data Structures
- * Missouri State University, Fall 2023
+ * Missouri State University, Spring 2024
  *
  * @file    main.cpp
  * @author  Jim Daehn <jdaehn@missouristate.edu>
@@ -18,12 +18,14 @@
 void displayBag( ArrayBag<std::string>& bag )
 {
     cout << "The bag contains " << bag.getCurrentSize( ) << " items:" << endl;
-    std::vector<std::string> bagItems{ bag.toVector() };
-    int numEntries{ static_cast<int> (bagItems.size()) };
+    std::vector<std::string> bagItems{ bag.toVector( ) };
+    int numEntries{ static_cast<int> ( bagItems.size( ) ) };
+
     for ( int i{ 0 }; i < numEntries; ++i )
     {
         cout << bagItems[ i ] << " ";
     } // end for
+    
     cout << endl << endl;
 } // end displayBag
 
