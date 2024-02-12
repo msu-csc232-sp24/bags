@@ -2,13 +2,11 @@
  * CSC232 - Data Structures
  * Missouri State University, Spring 2024
  *
- * Listing 4-1
- *
  * Created by Frank M. Carrano and Timothy M. Henry with stylistic modifications made by Jim Daehn.
  *
  * @file    Node.h
  * @author  Jim Daehn <jdaehn@missouristate.edu>
- * @brief   Macros, libraries and definitions for use in csc232 assignments.
+ * @brief   Listing 4-1
  * @version 0.1
  * @date    9/10/2021
  *
