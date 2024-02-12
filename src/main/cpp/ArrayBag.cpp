@@ -93,9 +93,9 @@ int ArrayBag< T >::getFrequencyOf( const T& anEntry ) const
 } // end getFrequencyOf
 
 template< typename T >
-bool ArrayBag< T >::contains( const T& target ) const
+bool ArrayBag< T >::contains( const T& anEntry ) const
 {
-    return getFrequencyOf( target ) > 0 ;
+    return getFrequencyOf( anEntry ) > 0 ;
 } // end contains
 
 // template< typename T >
